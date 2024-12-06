@@ -1,7 +1,7 @@
 # Makefile для сборки и создания .opa пакета
 
 # Параметры
-BUILD_PATH := $(realpath .)
+BUILD_PATH := $(CURDIR)  # Используем текущую директорию
 MANIFEST := $(BUILD_PATH)/Manifest.xml
 PKG_DIR := $(BUILD_PATH)/pkg
 TEMP_DIR := $(BUILD_PATH)/temp
