@@ -1,0 +1,18 @@
+<root>
+    <Application>
+        <appname>Hello</appname>
+        <appid>com.hibsd</appid>
+        <appversion>1.0.0</appversion>
+        <appstatus>release</appstatus>
+        <appicon>res/AppIcon.png</appicon>
+        <minversion>1.0</minversion>
+        <apiver>1</apiver>
+    </Application>
+    <Build>
+        <platform>x86-64</platform>
+        <builder>gcc</builder>
+        <src>src/</src>
+    </Build>
+    <Privacy>
+    </Privacy>
+</root>
